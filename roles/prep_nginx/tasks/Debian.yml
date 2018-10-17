@@ -30,6 +30,7 @@
   apt:
     upgrade: dist
     autoremove: true
+  when: apt_dist_upgrade
 
 - name: install additional packages
   apt:
