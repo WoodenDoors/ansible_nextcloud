@@ -6,6 +6,7 @@
   - name: add nginx key
     apt_key:
       url: https://nginx.org/keys/nginx_signing.key
+      id: 7BD9BF62
       state: present
   
   - name: add additional repos

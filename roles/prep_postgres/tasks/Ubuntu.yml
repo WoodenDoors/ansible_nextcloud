@@ -4,6 +4,7 @@
 - name: add postgres repo key
   apt_key:
     url: https://www.postgresql.org/media/keys/ACCC4CF8.asc
+    id: ACCC4CF8
     state: present
 
 - name: add postgresql to sources list
